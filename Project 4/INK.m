@@ -133,7 +133,7 @@ save('data_1','points')
 load training.mat
 
 [grid, newPoints] = preProcess(points);
-Number = classify(grid, newPoints, training_data)
+Number = classify(grid, newPoints, prePro_training_data, bitmap_training_data)
 
 
 
